@@ -1,0 +1,16 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+langchain==0.3.0
+langchain-openai==0.2.0
+langchain-community==0.3.0
+langchain-huggingface==0.1.0
+sentence-transformers==3.0.1
+chromadb==0.5.2
+pypdf==3.17.4
+python-dotenv==1.0.1
+tenacity==8.2.3
+onnxruntime==1.19.2
+docx2txt==0.8
+pandas==2.2.3
+pydantic==2.11.5
+langchain-huggingface==0.1.0

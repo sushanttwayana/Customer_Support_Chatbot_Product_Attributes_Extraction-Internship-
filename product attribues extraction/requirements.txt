@@ -1,0 +1,7 @@
+openai==1.51.2
+pandas==2.2.3
+kor>=0.9.0
+
+langchain>=0.0.300
+# openai>=1.0.0  # Placeholder; remove if not using OpenAI. Replace with xAI SDK (e.g., xai-sdk>=1.0.0) once available
+python-dateutil>=2.8.2

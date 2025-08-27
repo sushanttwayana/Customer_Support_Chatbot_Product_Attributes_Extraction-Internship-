@@ -1,0 +1,67 @@
+# Environment files
+*.env
+.env*
+**/.env
+**/.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+**/*_env/
+
+# IDE settings
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Reports and outputs
+*.csv
+*.xlsx
+*.html
+report/
+sender_analysis_report.html
+combined_output.csv
+
+# Model files
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# API Keys and secrets (additional protection)
+**/config.py
+**/secrets.py
+**/*key*
+**/*token*
+**/*secret*
+
+# Misc folders
+mics/
+document/
+customer_support/cus_support_env
+document
+product attribues extraction/product_extract_env
+product attribues extraction/feature_extract.ipynb
+sql_agent_product/product_env
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.db
+*.sqlite3
+chroma_db/

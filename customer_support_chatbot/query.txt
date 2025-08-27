@@ -1,0 +1,96 @@
+Expected Interactions
+Query: “What is the name of this company?” Bot: “The company is NepaWholesale, a leading wholesale supplier. How else can I assist you with NepaWholesale?”
+Query: “Tell me about nepalwholesale products.” Bot: “NepaWholesale offers a wide range of products, including [details from documents]. How else can I assist you with NepaWholesale?”
+Query: “Where is nepalwholesale located?” Bot: “NepaWholesale is located at [address from documents]. How else can I assist you with NepaWholesale?”
+Query: “My order is stuck what to do?” Bot: “Order status updates can sometimes be delayed. Check your account or contact us at 561-684-1107 for real-time updates. How else can I assist you with NepaWholesale?”
+Query: “Pizza recipe?” Bot: “That seems unrelated to NepaWholesale. Could you ask about our products or services? How else can I assist you with NepaWholesale?”
+Follow-Up: “Tell me more about it.” Bot: “Building on your previous question about NepaWholesale, we specialize in [more details]. How else can I assist you with NepaWholesale?”
+
+
+1. Product & Inventory Questions
+"What's the difference between your premium and standard e-cigarette products in terms of battery life and vapor production?"
+
+"Can you provide a comparison of nicotine levels across your top 3 best-selling vape juice flavors?"
+
+"Do you have any sugar-free or low-calorie options in your snack product line for convenience stores?"
+
+"What's the shelf life of your disposable vapes if stored in optimal conditions?"
+
+"Which of your tobacco products have FDA approval, and are there any pending approvals I should know about?"
+
+2. Ordering & Account Management
+"I placed an order 3 days ago but haven't received a shipping confirmation. Can you check the status and explain your processing time SLAs?"
+
+"What payment methods do you accept for international wholesale orders, and are there any currency conversion fees?"
+
+"My account was locked after multiple failed login attempts. What's the recovery process, and how can I prevent this in the future?"
+
+"How do bulk discounts work if I want to mix different product categories in a single large order?"
+
+"Can you explain your credit application process for new business accounts with references?"
+
+3. Shipping & Logistics
+"What are your shipping options for perishable items, and how do you handle temperature control?"
+
+"Do you offer consolidated shipping for multiple orders placed within the same week?"
+
+"What's your policy for shipments damaged in transit when the carrier denies liability?"
+
+"How do you handle backorders for seasonal products like holiday-themed vape flavors?"
+
+"What are the cutoff times for same-day processing, and does this vary by destination state?"
+
+4. Returns & Compliance
+"What documentation is required to return expired products that were delivered close to their best-by date?"
+
+"How do I process a return for a defective product batch where some units work and others don't?"
+
+"Are there any state-specific regulations I should know about when reselling your products in Texas versus Florida?"
+
+"What's your policy on recalled products, and how are customers notified?"
+
+"Can you provide a certificate of analysis for your CBD products showing third-party lab results?"
+
+5. Technical & Support Issues
+"Your website's bulk order calculator isn't applying the 10% discount promised in your email campaign. How can I get this resolved?"
+
+"I'm getting authentication errors when trying to access my tax-exempt certificates. Is this a known issue?"
+
+"The batch number on my recent shipment doesn't match the quality control docs. How do I verify authenticity?"
+
+"Your mobile app crashes when uploading resale certificates. Are you working on a fix?"
+
+"How do I escalate a complaint if the chatbot can't resolve my issue about missing inventory?"
+
+6. Business & Partnership
+"What are the requirements to become an authorized distributor in the Midwest region?"
+
+"Do you offer white-labeling or private branding for any of your product lines?"
+
+"Can you share your roadmap for new product launches in the next quarter?"
+
+"What marketing co-op funds or POS materials are available for retailers?"
+
+"How does your vendor onboarding process work for new suppliers wanting to list products?"
+
+7. Edge Cases & Complex Scenarios
+"If I receive a partial shipment where some items are backordered, how does that affect my volume discount tier?"
+
+"How do you handle discrepancies between the purchase order, invoice, and actual delivery?"
+
+"What's the process if I need to modify an order that's already in 'processing' status?"
+
+"Can you explain the tax implications if I ship to a customer in a different state from my business?"
+
+"What's your business continuity plan for supply chain disruptions during hurricane season?"
+
+8. Multi-Part Questions
+"Can you explain your return policy for defective merchandise, including who covers return shipping, time limits, and required documentation?"
+
+"What are the steps to set up a recurring order with flexible delivery dates, and how does pricing compare to one-time purchases?"
+
+"For a new smoke shop, what starter kits do you recommend, what's the MOQ, and do you offer display fixtures?"
+
+"How do I update my business's legal name, tax ID, and primary contact in your system without disrupting active orders?"
+
+"What training resources are available for my staff on product knowledge, and do you offer in-person sessions for large accounts?"
