@@ -37,6 +37,32 @@ The chatbot's architecture is a streamlined pipeline that processes user queries
 *   `rag_system.py`: Implements the RAG pipeline. It manages the Chroma vector store, handles document retrieval using Maximum Marginal Relevance (MMR) search, and sets up the LLM for response generation.
 *   `agent.py`: The specialized `CustomerSupportAgent` that provides robust, tailored responses for support-related queries. It incorporates specific logic for common issues like authentication errors or account problems.
 
+
+## 2. Product Attribute Extractor
+This project focuses on leveraging LLMs or rule-based methods (e.g., regex) to extract specific attributes from unstructured product descriptions. This is crucial for normalizing and enriching product data, making it easier to categorize, search, and analyze.
+
+### Features
+1. *Automated Extraction: Automatically identifies and extracts key product attributes (e.g., color, size, material, brand) from text.*
+
+2. Hybrid Approach: Can use either LLM-powered parsing for complex, unstructured text or a more deterministic regex-based approach for predictable patterns.
+
+3. Scalability: Designed to process large datasets of product descriptions efficiently.
+
+## 3. SQL Database Agent
+This project showcases a LangChain SQL Agent that allows users to interact with a product database using natural language. Instead of writing SQL queries, users can ask questions like "How many products are in the 'Electronics' category?" or "List the top 5 most expensive products."
+
+### How It Works
+
+* Natural Language Query: A user submits a question in plain English.
+
+* LLM-Powered Translation: The LLM translates the user's query into a valid SQL command. This process involves understanding the user's intent, the database schema, and the necessary SQL syntax.
+
+* Database Interaction: The generated SQL query is executed against the database.
+
+* Response Generation: The query results are presented to the user in a clear, text-based format.
+
+**This agent empowers non-technical users to gain insights from the database without needing to learn SQL.**
+
 ### Setup & Usage
 
 **Requirements**: You will need an OpenAI API key for the LLM.
